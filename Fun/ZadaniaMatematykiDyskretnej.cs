@@ -53,7 +53,7 @@ namespace Fun
         {
             return (long)Math.Pow(2, k);
         }
-        // Oblicz ile jest .k.-elementowych podzbiorów zbioru .n.-elementowego
+        
         /// <summary>
         /// Pytanie: Oblicz ile jest .k.-elementowych podzbiorów zbioru .n.-elementowego
         /// </summary>
@@ -64,7 +64,7 @@ namespace Fun
         {
             if (n < k)
             {
-                Console.WriteLine("zbiory musibyc wieksze od podzbiory");
+                Console.WriteLine("ilość zbiorów musi być wieksza niż ilość podzbiorów");
             }
             long g = silnia(n);
             long d = silnia(k) * silnia(n - k);

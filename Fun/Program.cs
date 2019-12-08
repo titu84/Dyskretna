@@ -11,26 +11,12 @@ namespace Fun
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine(rozwiazanieCalkowite(3,9,191));
-            Console.WriteLine(wspolnyZbior(77,42,20));
-            //Console.WriteLine(dzielniki(10010));
-            //Console.WriteLine(podzbiory(3, 8));
-            //Console.WriteLine(podzbioryMulti(3, 3));
-            //Console.WriteLine(podzbiory(9));
-            //Console.WriteLine(KrawedzieGrafu(8));
-            //Console.WriteLine(nwd(2002,770));
-            //Console.WriteLine(ileF(3,5));
-            //Console.WriteLine(ileFR(4,6));
-            //Console.WriteLine(mocJednowartosciowa(6));
-            int i = 0;
-            while (i < 10)
-            {
-                int n = int.Parse(Console.ReadLine());
-                Console.WriteLine("*" + Funkc(n).ToString() + "*");
-                i++;
-            }
+            ZadaniaMatematykiDyskretnej o = new ZadaniaMatematykiDyskretnej();
+            Console.WriteLine(o.Dzielniki(56));
+            
             Console.ReadKey();
         }
+        #region stare metody
         //Oblicz, ile jest funkcji wzajemnie jednoznacznych f:A→A,  jeśli moc zbioru A wynosi 6
         static long mocJednowartosciowa(int x)
         {
@@ -119,5 +105,6 @@ namespace Fun
         {
             return (ile * (ile - 1)) / 2;
         }
+        #endregion
     }
 }

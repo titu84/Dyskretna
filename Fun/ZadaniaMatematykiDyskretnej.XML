@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fun</name>
+    </assembly>
+    <members>
+        <member name="T:Fun.ZadaniaMatematykiDyskretnej">
+            <summary>
+            Klasa umożliwia obliczenie wyników dla kilku probelmów występujących w matematyce dyskretnej
+            </summary>
+        </member>
+        <member name="M:Fun.ZadaniaMatematykiDyskretnej.Dzielniki(System.Int32)">
+            <summary>
+            Pytanie: Podaj, ile jest dzielników naturalnych liczby ...
+            </summary>
+            <param name="a">Liczba z której będzie obliczany dzielnik</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fun.ZadaniaMatematykiDyskretnej.IleFunkcjiWzajemnieJednoznacznych(System.Int32)">
+            <summary>
+            Pytanie: Oblicz, ile jest funkcji wzajemnie jednoznacznych f:A→A,  jeśli moc zbioru A wynosi ...
+            </summary>
+            <param name="x">Parametr wejściowy - nie wpisuj bardzo dużych</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fun.ZadaniaMatematykiDyskretnej.KrawedzieGrafu(System.Int32)">
+            <summary>
+            Pytanie: Ile krawędzi ma graf pełny K...
+            </summary>
+            <param name="ile">Ilość krawędzi grafu, np. dla grafu k8 wartość parametru to 8</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fun.ZadaniaMatematykiDyskretnej.Podzbiory(System.Int32)">
+            <summary>
+            Pytanie: Oblicz, ile jest wszystkich podzbiorów zbioru k-elementowego?
+            </summary>
+            <param name="k">Ile elementów posiada zbiór</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fun.ZadaniaMatematykiDyskretnej.Podzbiory(System.Int32,System.Int32)">
+            <summary>
+            Pytanie: Oblicz ile jest .k.-elementowych podzbiorów zbioru .n.-elementowego
+            </summary>
+            <param name="k">Ilość elementów w podzbiorze</param>
+            <param name="n">Ilość elementów w zbiorze</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fun.ZadaniaMatematykiDyskretnej.NajwiekszyWpolnyDzielnik(System.Int32,System.Int32)">
+            <summary>
+            Pytanie: Oblicz największy wspólny dzielnik liczb a oraz b.
+            Metoda działa dobrze dla liczb całkowitych większych od zera
+            </summary>
+            <param name="a">Dla wartości mniejszych od zera otrzymamy wynik -1</param>
+            <param name="b">Parametr nie może być zerem, w przypadku 0 otrzymamy wynik -1</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fun.ZadaniaMatematykiDyskretnej.silnia(System.Int32)">
+            <summary>
+            Lokalna metoda obliczająca silnię. Obliczenia realizowane są za pomocą rekurencji
+            </summary>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

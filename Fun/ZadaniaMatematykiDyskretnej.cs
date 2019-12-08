@@ -78,7 +78,7 @@ namespace Fun
         /// <param name="a">Dla wartości mniejszych od zera otrzymamy wynik -1</param>
         /// <param name="b">Parametr nie może być zerem, w przypadku 0 otrzymamy wynik -1</param>
         /// <returns></returns>
-        static int NajwiekszyWpolnyDzielnik(int a, int b)
+        public int NajwiekszyWpolnyDzielnik(int a, int b)
         {
             if (b == 0 || a < 0)
             {
